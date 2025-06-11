@@ -25,3 +25,17 @@ else{
 }
 
 }
+
+//Counter
+let count = document.getElementById("count").value || 0;
+
+function increase(){
+    // alert("Increase")
+    count++;
+    document.getElementById("count").innerText = count
+}
+function decrease(){
+    // alert("decrease")
+    count--;
+    document.getElementById("count").innerText = count
+}
